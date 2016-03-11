@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchWeather } from '../actions/index';
 import { removeCity } from '../actions/remove_city';
 import SimpleLineChart from '../components/simple_line_chart';
 import GoogleMap from '../components/google_map';
